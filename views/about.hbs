@@ -36,14 +36,21 @@
 
         #about>hr {
             border: 1px solid;
-            width: 80%;
-            margin-left: 10px;
+            width: 100%;
+           text-align: center;
         }
 
         #last>h3 {
             text-align: center;
             background-color: #11144c;
             color: white;
+        }
+        
+        .contributors{
+            padding-top: 2em;
+        }
+        .row li{
+            text-decoration: capitalize;
         }
     </style>
 </head>
@@ -73,8 +80,8 @@
         that will improve your skills as a developer.
         <br>
         <br>
-        <h4>OUR TECHNICAL TEAM</h4>
-        <hr>
+        {{!-- <h4>OUR TECHNICAL TEAM</h4>
+        <hr> --}}
         {{!-- <b>Dev/Alert</b> was created by a group of programmers to meet the needs of jobs availability in the continent and to
         connect to developers across the continent.<p> And this group of programmers include:</p>
         <ul>
@@ -112,9 +119,9 @@
         <h6>
             <p>Receive updates on recent remote jobs alerts and apply for jobs directly from your email address.</p>
         </h6>
-        <hr>
         <br>
         <h4>APPLYING VIA A DEV/ALERT AGENT?</h4>
+        <hr>
         <br>
         <h6><b>STEP 1</b></h6>
         <h6>
@@ -125,9 +132,10 @@
         <h6>
             <p>Click on Pay an Agent to begin our guided job application process.</p>
         </h6>
-        <hr>
+        <br>
+        <br>
         {{!-- AN AREA FOR CONTRIBUTORS --}}
-        <h1>OUR CONTRIBUTORS</h1>
+        <h1 class="contributors">OUR CONTRIBUTORS</h1>
 
         {{!-- 1st Row of Contributors --}}
         <div class="row">
@@ -136,7 +144,7 @@
                 <ul type="1">
                     <li >Ivory Okeke</li>
                     <li>Abdullahi Oladosu</li>
-                    <li></li>
+                    <li>Sholademi Elijah</li>
                     <li></li>
                 </ul>
             </div>
